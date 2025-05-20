@@ -1,4 +1,4 @@
-def heuristica_agoritmo_guloso(n = 8): # Função usando o algorimo guloso para resolver o problema das rainhas
+def heuristica_agoritmo_guloso(n = 8): # Função usando o algorimo guloso para resolver o problema das rainhas, a quantidade de rainhas será 8 por padrão para resolução do problema das 8 rainhas
     resultados = [] # Lista com as possíveis soluções
 
     def conflitos(estado): # Função para verficar o número de conflitos

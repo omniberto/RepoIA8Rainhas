@@ -1,4 +1,4 @@
-def busca_backtracking(n = 8) -> list:
+def backtracking(n = 8) -> list: #Incio da função utilizando backtracking, a quantidade de rainhas será 8 por padrão para resolução do problema das 8 rainhas
     colunas = set() # Set contendo as colunas ocupadas
     diagonais_positivas = set() # Set contendo as diagonais positivas ocupadas
     diagonais_negativas = set() # Set contendo as diagonais negativas ocupadas
